@@ -29,7 +29,9 @@ The app leverages SwiftUI’s latest navigation and form components, providing a
 
 ## Screenshots
 
-*Add screenshots or GIFs here to showcase the app’s interface and features.*
+![Initial](https://github.com/Asamaurdhava/WeSplit/blob/137d274c2d75a495a1b3eb07a2975122776a674a/Initial.PNG)
+![Inputing](https://github.com/Asamaurdhava/WeSplit/blob/137d274c2d75a495a1b3eb07a2975122776a674a/Inputing.PNG)
+![Output](https://github.com/Asamaurdhava/WeSplit/blob/137d274c2d75a495a1b3eb07a2975122776a674a/Output.PNG)
 
 ---
 
