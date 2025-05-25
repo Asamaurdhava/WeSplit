@@ -1,7 +1,3 @@
-Certainly! Here is a professionally framed **README.md** for your WeSplit iOS app project, suitable for showcasing on GitHub or in your portfolio:
-
----
-
 # WeSplit
 
 A modern, intuitive iOS application for calculating and splitting bills with ease, built using SwiftUI.
