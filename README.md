@@ -75,7 +75,7 @@ This repository is intended solely for personal learning and demonstration.
 
 ## Author
 
-**Vishesh Singh Rajput <specstan>**
+**Vishesh Singh Rajput aka specstan**
 
 ---
 
