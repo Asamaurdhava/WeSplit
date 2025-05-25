@@ -1,68 +1,75 @@
 # WeSplit
 
-A modern, intuitive iOS application for calculating and splitting bills with ease, built using SwiftUI.
+WeSplit is a SwiftUI-based iOS application created as a learning exercise, following the [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) course by Paul Hudson. The app demonstrates bill splitting with flexible tip calculation, real-time updates, and a clean, modern interface.
 
 ---
 
 ## Overview
 
-**WeSplit** simplifies the process of dividing a bill among multiple people and calculating tips. Designed with a clean and user-friendly interface, the app leverages SwiftUI’s latest features to provide real-time calculations and seamless user experience.
+**WeSplit** allows users to:
+- Enter a bill amount
+- Select the number of people sharing the bill
+- Choose any tip percentage (0%–100%)
+- Instantly view the total bill (including tip)
+- See the amount each person should pay
+
+The app leverages SwiftUI’s latest navigation and form components, providing a seamless and intuitive experience.
 
 ---
 
 ## Features
 
-- **Bill Entry:** Input the total check amount with locale-aware currency formatting.
-- **People Picker:** Select the number of people (2–99) to split the bill.
-- **Tip Selection:** Choose from common tip percentages (10%, 15%, 20%, 25%, or 0%) using a segmented control.
-- **Instant Calculation:** View the amount each person owes, including their share of the tip, updated in real time.
-- **Keyboard Management:** Integrated “Done” button to conveniently dismiss the keyboard.
-- **Responsive UI:** Structured layout using SwiftUI’s `Form` and `Section` components.
+- **Flexible Tip Selection:** Choose any tip percentage from 0% to 100% using a navigation-style picker.
+- **Dynamic Calculations:** Instantly displays both the total bill (with tip) and per-person amount.
+- **Locale-Aware Currency:** All amounts are formatted in the user’s local currency.
+- **Keyboard Management:** “Done” button in the toolbar for smooth data entry.
+- **Modern UI:** Utilises SwiftUI’s `NavigationStack`, `Form`, and sectioned layout for clarity and ease of use.
 
 ---
 
 ## Screenshots
 
-![Initial - Without any Input](https://github.com/Asamaurdhava/WeSplit/blob/2519203c8ced800fe4d383e1256444309eaa3ca7/Initial.png) ![Working](https://github.com/Asamaurdhava/WeSplit/blob/1d11a6239cf1829ebf43ab7bab505beeb214052e/Working.png)
+*Add screenshots or GIFs here to showcase the app’s interface and features.*
 
 ---
 
 ## Getting Started
 
-### Prerequisites
+This repository is for demonstration and educational purposes only, as part of the 100 Days of SwiftUI course.  
+**The source code is provided for learning and portfolio presentation. It is not intended for commercial use, redistribution, or derivative works without adhering to the original course’s terms and the author’s guidelines.**
 
-- Xcode 15 or later
-- iOS 17.0 or later
-
-### Installation
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/wesplit.git
-   ```
-2. **Open in Xcode**
-   - Navigate to the project directory and open `WeSplit.xcodeproj`.
-
-3. **Build and Run**
-   - Select your target device or simulator and click **Run**.
+If you wish to use or extend this code beyond personal learning, please refer to [Paul Hudson’s licensing and usage policy](https://www.hackingwithswift.com/terms) or contact him directly.
 
 ---
 
 ## Usage
 
-1. Enter the total bill amount.
+1. Enter the bill amount in the “Amount” field.
 2. Select the number of people sharing the bill.
-3. Choose the desired tip percentage.
-4. View the calculated amount each person needs to pay.
+3. Choose your desired tip percentage (0%–100%).
+4. View the “Original Amount plus tip” and “Amount per person” sections for real-time results.
 
 ---
 
 ## Code Highlights
 
-- Utilises `@State` for reactive UI updates.
-- Implements `@FocusState` for managing keyboard focus.
-- Employs SwiftUI’s declarative syntax for concise, maintainable code.
-- Real-time calculations and locale-aware formatting for a polished user experience.
+- **State Management:**  
+  Uses `@State` for reactive UI updates and `@FocusState` for keyboard focus.
+- **Custom Tip Picker:**  
+  Allows selection of any tip percentage from 0 to 100.
+- **Real-Time Calculations:**  
+  - `originalAmount`: Computes the total bill including tip.
+  - `totalPerPerson`: Calculates each person’s share.
+- **SwiftUI Best Practices:**  
+  Clean, sectioned forms and navigation for a professional look and feel.
+
+---
+
+## Acknowledgements
+
+This project is based on [Paul Hudson](https://twitter.com/twostraws)’s [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) course.  
+All credit for the original concept, structure, and educational content goes to Paul Hudson and the Hacking with Swift community.  
+This repository is intended solely for personal learning and demonstration.
 
 ---
 
@@ -72,14 +79,19 @@ A modern, intuitive iOS application for calculating and splitting bills with eas
 
 ---
 
-## License
+## License & Usage
 
-This project is licensed under the [MIT License](LICENSE).
+**Educational Use Only.**
+
+This repository is a student implementation of Paul Hudson’s tutorial and is not licensed for commercial use or redistribution.  
+For any other use, please consult the [original course terms](https://www.hackingwithswift.com/terms) or contact Paul Hudson.
 
 ---
 
-**If you found this project useful, please consider starring the repository.**
+## Contributing
+
+This project does not accept external contributions.
 
 ---
 
-*For any queries or feedback, feel free to reach out via GitHub Issues.*
+**For queries about this repository, please contact the author. For questions about the original course or code, please refer to Paul Hudson’s official channels.**
