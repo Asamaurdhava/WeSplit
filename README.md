@@ -23,7 +23,7 @@ A modern, intuitive iOS application for calculating and splitting bills with eas
 
 ## Screenshots
 
-*Add screenshots here to visually demonstrate the app’s interface and features.*
+![Initial - Without any Input](https://github.com/Asamaurdhava/WeSplit/blob/2519203c8ced800fe4d383e1256444309eaa3ca7/Initial.png)
 
 ---
 
